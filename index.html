@@ -18,6 +18,11 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .container {
+        padding: 0 20px;
+      }
+    </style>
   </head>
   <body>
     <section class="bg-base-200 pb-7 pt-2">
@@ -117,10 +122,10 @@
       >
         <img
           src="./assets/Vector.png"
-          class="absolute left-24 -top-16"
+          class="absolute hidden lg:block -left-12 -top-16"
           alt=""
         />
-        <div class="w-1/2 flex flex-col justify-between gap-8">
+        <div class="lg:w-1/2 flex flex-col justify-between gap-12">
           <a href="#" class="flex justify-start items-center">
             <i
               class="fa-solid fa-arrow-right-long rounded-full p-2 flex center"
@@ -167,9 +172,8 @@
             </div>
           </div>
         </div>
-        <div class="w-1/2 flex items-center justify-center">
-          <img src="./assets/Rectangle.png" class="w-full" alt="" />
-        </div>
+
+        <img src="./assets/Rectangle.png" class="lg:w-1/2 flex w-full" alt="" />
       </div>
 
       <div
@@ -497,6 +501,115 @@
         </div>
       </div>
     </section>
+    <!-- challence part -->
+    <section class="py-20">
+      <div class="container mx-auto">
+        <!-- ===========================title bar start====================== -->
+        <div
+          class="title_bar py-12 flex flex-col justify-center items-center gap-4"
+        >
+          <h1 class="text-5xl font-bold">
+            Our Big offer
+            <span class="text-green-500 font-bold">ORDER</span> now
+          </h1>
+          <p class="text-gray-800 w-3/4 text-center">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- ===========================title bar end====================== -->
+      </div>
+      <div
+        class="container mx-auto flex gap-5 flex-col lg:flex-row justify-center"
+      >
+        <div class="card card-compact bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img
+              src="https://5.imimg.com/data5/JC/HV/QD/ANDROID-89213884/product-jpeg-500x500.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body flex flex-col justify-between">
+            <h2 class="card-title">Basic Design</h2>
+            <div class="flex flex-col">
+              <ul>
+                <li><i class="fas fa-home"></i> Gabled Roof</li>
+                <li><i class="fas fa-archway"></i> Exposed Beams</li>
+                <li><i class="fas fa-window-maximize"></i> Large Windows</li>
+                <li><i class="fas fa-layer-group"></i> Mixed Materials</li>
+                <li><i class="fas fa-layer-group"></i> Lofted Space</li>
+                <li><i class="fas fa-th-large"></i> Open Floor Plan</li>
+                <li><i class="fas fa-tree"></i> Outdoor Living Spaces</li>
+              </ul>
+            </div>
+            <div class="card-actions justify-end">
+              <button class="btn bg-green-400">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact border-4 border-primary bg-green-500 w-96 shadow-xl">
+          <figure>
+            <img
+              src="https://qph.cf2.quoracdn.net/main-qimg-50e52aed83073f47e84bc2259efa3818-pjlq"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body flex flex-col justify-between">
+            <h2 class="card-title">Premmuam Design</h2>
+            <div class="flex flex-col">
+              <ul>
+                <li><i class="fas fa-home"></i> Gabled Roof</li>
+                <li><i class="fas fa-archway"></i> Exposed Beams</li>
+                <li><i class="fas fa-window-maximize"></i> Large Windows</li>
+                <li><i class="fas fa-layer-group"></i> Mixed Materials</li>
+                <li><i class="fas fa-layer-group"></i> Lofted Space</li>
+                <li><i class="fas fa-th-large"></i> Open Floor Plan</li>
+                <li><i class="fas fa-tree"></i> Outdoor Living Spaces</li>
+                <li><i class="fas fa-fire"></i> Stone Fireplace</li>
+                <li>
+                  <i class="fas fa-solar-panel"></i> Energy-Efficient Features
+                </li>
+                <li><i class="fas fa-umbrella-beach"></i> Wraparound Porch</li>
+                <li><i class="fas fa-seedling"></i> Custom Landscaping</li>
+                <li><i class="fas fa-wifi"></i> Smart Home Integration</li>
+              </ul>
+            </div>
+            <div class="card-actions justify-end">
+              <button class="btn bg-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img
+              src="https://5.imimg.com/data5/MN/FU/MY-31359712/building-desinging-services-1000x1000.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body flex flex-col justify-between">
+            <h2 class="card-title">Middle Design</h2>
+            <div class="flex flex-col">
+              <ul>
+                <li><i class="fas fa-home"></i> Gabled Roof</li>
+                <li><i class="fas fa-archway"></i> Exposed Beams</li>
+                <li><i class="fas fa-window-maximize"></i> Large Windows</li>
+                <li><i class="fas fa-layer-group"></i> Mixed Materials</li>
+                <li><i class="fas fa-layer-group"></i> Lofted Space</li>
+                <li><i class="fas fa-th-large"></i> Open Floor Plan</li>
+                <li><i class="fas fa-tree"></i> Outdoor Living Spaces</li>
+                <li><i class="fas fa-fire"></i> Stone Fireplace</li>
+                <li>
+                  <i class="fas fa-solar-panel"></i> Energy-Efficient Features
+                </li>
+              </ul>
+            </div>
+            <div class="card-actions justify-end">
+              <button class="btn bg-green-400">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="py-20 bg-[url('./assets/bg.jpg')] bg-cover bg-center">
       <div class="container mx-auto">
         <!-- ===========================title bar start====================== -->
@@ -565,6 +678,8 @@
         </form>
       </div>
     </section>
+
+    
     <footer class="bg-gray-900 text-white py-24">
       <div
         class="container mx-auto flex items-center text-center justify-center"
@@ -580,7 +695,9 @@
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
-          <div class="flex gap-10 lg:gap-20 flex-col lg:flex-row justify-around">
+          <div
+            class="flex gap-10 lg:gap-20 flex-col lg:flex-row justify-around"
+          >
             <a href="">Home</a>
             <a href="">Home</a>
             <a href="">Home</a>
